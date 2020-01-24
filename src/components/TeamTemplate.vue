@@ -23,10 +23,7 @@
           v-bind:key="member.id"
           class="d-flex flex-column col-4 col-sm-2 col-md-2 p-1 align-items-center member"
         >
-          <img
-            class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
-            v-bind:src="'/members/'+member.image+'.png'"
-          />
+          <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.png'" />
           <div class="text-center">
             {{member.lastname}}
             <br />
@@ -130,7 +127,7 @@ export default {
 }
 .img-fluid {
   max-width: 100%;
-  height: 100%;
+  height: auto;
 }
 .title {
   font-size: 2rem;
@@ -142,10 +139,7 @@ export default {
 .arrow {
   font-size: 200%;
 }
-#img {
-  width: 100%;
-  height: 100%;
-}
+
 .members div {
   font-size: 1rem;
   line-height: 1.2rem;

@@ -31,7 +31,12 @@
         <h2>Hírek</h2>
       </div>
       <div class="scrollable">
-        <News class="news" v-for="item in allNews" v-bind:key="item.id" v-bind:item="item"></News>
+        <News
+          class="news"
+          v-for="item in allNews.slice().reverse()"
+          v-bind:key="item.id"
+          v-bind:item="item"
+        ></News>
       </div>
     </div>
   </div>
