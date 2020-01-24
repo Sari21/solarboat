@@ -7,9 +7,9 @@
         <div>{{team.description}}</div>
       </div>
       <div class="justify-content-center d-flex row align-items-center members mb-3">
-        <div class="d-flex flex-column col-5 col-sm-4 col-md-3 img-fluid p-1 align-items-center">
+        <div class="d-flex flex-column col-5 col-sm-4 col-md-3 p-1 align-items-center">
           <img
-            class="rounded-circle p-0 img-fluid"
+            class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
             v-bind:src="'/members/'+team.leader.image+'.png'"
           />
           <div class="text-center font-weight-bold leader">
@@ -21,9 +21,12 @@
         <div
           v-for="member in team.members"
           v-bind:key="member.id"
-          class="d-flex flex-column col-4 col-sm-2 col-md-2 img-fluid p-1 align-items-center member"
+          class="d-flex flex-column col-4 col-sm-2 col-md-2 p-1 align-items-center member"
         >
-          <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.png'" />
+          <img
+            class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
+            v-bind:src="'/members/'+member.image+'.png'"
+          />
           <div class="text-center">
             {{member.lastname}}
             <br />
