@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 
 import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
-import router from "C:/Users/Sári/Documents/SCHDesign/solarboat/sb/src/components/router";
+import router from "./components/router";
 
 // Install BootstrapVue
 Vue.use(BootstrapVue);
