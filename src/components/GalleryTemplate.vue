@@ -42,4 +42,8 @@ export default {
   props: ["gallery"]
 };
 </script>
-<style></style>
+<style>
+img {
+  cursor: pointer;
+}
+</style>
