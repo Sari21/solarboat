@@ -1,0 +1,211 @@
+{
+  "main_sponsors": [
+    {
+      "name": "audi",
+      "link": "https://www.audi.hu/"
+    },
+    {
+      "name": "bd",
+      "link": "http://afteam.hu/"
+    },
+    {
+      "name": "porsche",
+      "link": "https://www.porschehungaria.hu/"
+    },
+    {
+      "name": "conrad",
+      "link": "https://www.conrad.hu/?gclid=EAIaIQobChMI4dqg1Oe35AIVy5AYCh11xQpsEAAYAiAAEgK6LvD_BwE"
+    }
+  ],
+  "exclusive_sponsors": [
+    {
+      "name": "flaar",
+      "link": "http://flaar18.hu/rolunk/"
+    },
+    {
+      "name": "xxl_feny",
+      "link": "https://xxl-feny-kft.business.site/"
+    },
+    {
+      "name": "pauger",
+      "link": "https://www.paugercarbon.com/"
+    },
+    {
+      "name": "freedee",
+      "link": "http://www.freedee.hu/"
+    },
+    {
+      "name": "harting",
+      "link": "https://www.harting.com/US/en"
+    },
+    {
+      "name": "national_instruments",
+      "link": "https://www.ni.com/fr-fr.html"
+    },
+    {
+      "name": "furukawa",
+      "link": "http://www.feti.hu/"
+    },
+    {
+      "name": "knorr-bremse",
+      "link": "https://www.knorr-bremse.hu/hu/"
+    },
+    {
+      "name": "boatshow",
+      "link": "https://boatshow.hu/"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "hbm",
+      "link": "https://ipari-merestechnika.hu/?session"
+    },
+    {
+      "name": "analog_devices",
+      "link": "https://www.analog.com/en/index.html"
+    },
+    {
+      "name": "fiber",
+      "link": ""
+    },
+    {
+      "name": "gross",
+      "link": "https://www.schrauben-gross.com/hu/home.html"
+    },
+    {
+      "name": "como",
+      "link": "https://www.comoyachts.com/"
+    },
+    {
+      "name": "henkel",
+      "link": "https://www.henkel.hu/"
+    },
+    {
+      "name": "zoltek",
+      "link": "https://zoltek.com/"
+    },
+    {
+      "name": "novia",
+      "link": "https://novia.hu/"
+    },
+    {
+      "name": "korrekt",
+      "link": "http://www.korrektnyomda.hu/"
+    },
+    {
+      "name": "lomex",
+      "link": "https://lomex.hu/hu/homepage"
+    },
+    {
+      "name": "tomkom",
+      "link": "https://radioberlet.hu/"
+    },
+    {
+      "name": "rava",
+      "link": "https://ravatherm.com/hu/hu/"
+    },
+    {
+      "name": "polokozpont",
+      "link": "https://www.polokozpont.hu/"
+    },
+    {
+      "name": "myactioncam",
+      "link": "https://myactioncam.hu/"
+    },
+    {
+      "name": "liion",
+      "link": "https://www.li-ion.hu/"
+    },
+    {
+      "name": "gurit",
+      "link": "https://www.gurit.com/"
+    },
+    {
+      "name": "grobelox",
+      "link": "http://grobelox.hu/"
+    },
+    {
+      "name": "sonima",
+      "link": "https://sonima.net/en/company/contact/projekt-ungarn/index.html"
+    },
+    {
+      "name": "kompozitor",
+      "link": "http://kompozitor.hu/"
+    },
+    {
+      "name": "st",
+      "link": "https://snt.hu/"
+    },
+    {
+      "name": "lakner",
+      "link": "https://laknerponyva.hu/"
+    },
+    {
+      "name": "intertechnika",
+      "link": "http://intertechnika.eu/"
+    },
+    {
+      "name": "easturn",
+      "link": "https://easturn.hu/"
+    },
+    {
+      "name": "ptc",
+      "link": "https://www.ptc.com/"
+    },
+    {
+      "name": "altair",
+      "link": "https://www.altair.com/"
+    },
+    {
+      "name": "titan",
+      "link": "https://www.etiweb.hu/"
+    },
+    {
+      "name": "unipcb",
+      "link": "http://www.unipcb.hu/"
+    },
+    {
+      "name": "forcam",
+      "link": "http://www.forcam.hu/"
+    },
+    {
+      "name": "rosso",
+      "link": "https://www.facebook.com/rossodekor/"
+    },
+    {
+      "name": "skyfol",
+      "link": "https://www.skyfol.hu/"
+    },
+    {
+      "name": "martin_metals",
+      "link": "https://www.metalproduct.hu/"
+    },
+    {
+      "name": "trinexus",
+      "link": "https://www.trinexus.hu/"
+    },
+    {
+      "name": "modul",
+      "link": "http://modul-fogaskerek.hu/"
+    },
+    {
+      "name": "igus",
+      "link": "https://www.igus.hu/?gclid=Cj0KCQjwiILsBRCGARIsAHKQWLNy3TF28-P19VdH3u4745YawOUNb9lBXrzZol0jv1moqSvkRjD5MBYaAqdzEALw_wcB"
+    },
+    {
+      "name": "autopro",
+      "link": "https://autopro.hu/?gclid=Cj0KCQjwiILsBRCGARIsAHKQWLPPwbT4ll9nVn6cioy0x-oRbSjdL0QWCVtxCfj9FwQpzdo7UEEln28aAgvNEALw_wcB"
+    }
+  ],
+  "departments": [
+    {
+      "name": "mvt"
+    },
+    {
+      "name": "aut"
+    },
+    {
+      "name": "gt3"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#header {
+  background: #ffffff;
+  padding: 10px;
+}
+
+#body {
+  background-image: url("bg3.png"), url("bg2.png");
+  background-repeat: no-repeat, repeat-y;
+  background-size: 100%, 100%;
+  background-position: center top, center bottom;
+}
+#footer {
+  background-image: url("bg2.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-position: center bottom;
+}
+
+/*@media screen and (min-width: 100px) and (max-width: 480px) {
+  #body {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #body {
+    max-width: 100%;
+  }
+}*/

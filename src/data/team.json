@@ -1,0 +1,215 @@
+[
+  {
+    "id": 0,
+    "title": "Anyagtechnológia munkacsoport",
+    "title_en": "Material science workgroup",
+    "description": "A csoport feladatai közé tartozik a különböző elemekhez szükséges gyártástechnológia és anyaghasználat megválasztása, illetve a gyártás kivitelezése",
+    "description_en": "This group is responsible for the proper use of materials and also for the production",
+    "leader": {
+      "firstname": "Márk",
+      "lastname": "Bakonyi",
+      "image": "bakonyi-mark"
+    },
+    "members": [
+      {
+        "id": 0,
+        "firstname": "András",
+        "lastname": "Pintér",
+        "image": "pinter-andras"
+      },
+      {
+        "id": 1,
+        "firstname": "András",
+        "lastname": "Sinkó",
+        "image": "sinko-andras"
+      },
+      {
+        "id": 2,
+        "firstname": "Alexszisz",
+        "lastname": "Szertaridisz",
+        "image": "alexszisz"
+      },
+      {
+        "id": 3,
+        "firstname": "Ákos",
+        "lastname": "Tóth",
+        "image": "toth-akos"
+      }
+    ],
+    "images": [
+      { "id": 0, "name": "csapatkép_1.png" },
+      {
+        "id": 1,
+        "name": "csapatkép_2.png"
+      },
+      {
+        "id": 2,
+        "name": "kep.jpg"
+      },
+      {
+        "id": 4,
+        "name": "kep2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Elektronikai munkacsoport",
+    "title_en": "Electronics workgroup",
+    "description": "A csapat feladatai közé tartozik az elektronikai rendszertervek elkészítése, illetve az elektronikai komponensek telepítése a hajóba. Emellett az idei terveink között szerepel az IoT technológiákban rejlő lehetőségek felhasználása is.",
+    "description_en": "This team is responsible for the electrical design and for the installation of the electrical components. This year the team focuses on the possibilities of the IoT technologoies as well.",
+    "leader": {
+      "firstname": "Márk",
+      "lastname": "Kecskés",
+      "image": "kecskes-mark"
+    },
+    "members": [
+      {
+        "id": 0,
+        "firstname": "Katica",
+        "lastname": "Bozsó",
+        "image": "bozso-katica"
+      },
+      {
+        "id": 1,
+        "firstname": "Szilárd",
+        "lastname": "Czibere",
+        "image": "czibere-szilard"
+      },
+      {
+        "id": 2,
+        "firstname": "Péter",
+        "lastname": "Tömöri",
+        "image": "tomori-peter"
+      },
+      {
+        "id": 3,
+        "firstname": "Dávid",
+        "lastname": "Gracza",
+        "image": "gracza-david"
+      }
+    ],
+    "images": [
+      {
+        "id": 0,
+        "name": "csapatkép_1.png"
+      },
+      {
+        "id": 1,
+        "name": "csapatkép_2.png"
+      },
+      {
+        "id": 2,
+        "name": "kep.jpg"
+      },
+      {
+        "id": 4,
+        "name": "kep2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Gazdasági csoport",
+    "title_en": "Economic workgroup",
+    "description": "A munkacsoport fő feladatai közé tartozik a projekt pénzügyeinek a kezelése, valamint a csapatot érintő kommunikációs és marketing tevékenységek lebonyolítása is!",
+    "description_en": "This group is responsible for the finances of the project and also for the communication and the marketing activity!",
+    "leader": {
+      "firstname": "Szilárd",
+      "lastname": "Czibere",
+      "image": "czibere-szilard"
+    },
+    "members": [
+      {
+        "id": 0,
+        "firstname": "Dóra",
+        "lastname": "Budai",
+        "image": "budai-dora"
+      },
+      {
+        "id": 1,
+        "firstname": "Luca",
+        "lastname": "Bartus",
+        "image": "bartus-luca"
+      },
+      {
+        "id": 2,
+        "firstname": "Fanni",
+        "lastname": "Dallos",
+        "image": "dallos-fanni"
+      },
+      {
+        "id": 3,
+        "firstname": "Zsófia",
+        "lastname": "Dombóvári",
+        "image": "dombovari-zsofi"
+      }
+    ],
+    "images": [
+      {
+        "id": 0,
+        "name": "csapatkép_1.png"
+      },
+      {
+        "id": 1,
+        "name": "csapatkép_2.png"
+      },
+      {
+        "id": 2,
+        "name": "kep.jpg"
+      },
+      {
+        "id": 4,
+        "name": "kep2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Konstrukció & Szimuláció munkacsoport",
+    "title_en": "Design & Simulation workgroup",
+    "description": "A csoport elsődleges feladata a gépészeti tervek megalkotása, illetve azok gyártás előtti szimulációval végzett validálása.",
+    "description_en": "This workgroup is responsible for the blueprints and the simulations of the mechanical components.",
+    "leader": {
+      "firstname": "Zalán",
+      "lastname": "Petőcz",
+      "image": "petocz-zalan"
+    },
+    "members": [
+      {
+        "id": 0,
+        "firstname": "Ágoston",
+        "lastname": "Dobos",
+        "image": "dobos-agoston"
+      },
+      {
+        "id": 1,
+        "firstname": "Péter",
+        "lastname": "Ónódy",
+        "image": "onody-peter"
+      },
+      {
+        "id": 2,
+        "firstname": "János",
+        "lastname": "Popovics",
+        "image": "popovics-janos"
+      },
+      {
+        "id": 3,
+        "firstname": "Ábel",
+        "lastname": "Visnyei",
+        "image": "visnyei-abel"
+      }
+    ],
+    "images": [
+      {
+        "id": 0,
+        "name": "csapatkép_1.png"
+      },
+      {
+        "id": 1,
+        "name": "csapatkép_2.png"
+      }
+    ]
+  }
+]
