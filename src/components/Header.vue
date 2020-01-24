@@ -1,7 +1,12 @@
 <template>
   <div id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <img class="img-responsive" alt="SBT" src="../images/solar logo.png" style="width: 100px;" />
+      <img
+        class="img-responsive"
+        alt="SBT"
+        src="../images/solar logo.png"
+        style="width: 100px;"
+      />
       <button
         class="navbar-toggler"
         type="button"
@@ -29,7 +34,7 @@
             <a class="nav-link" @click="sponsors">Szponzorok</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Galéria</a>
+            <a class="nav-link" @click="gallery">Galéria</a>
           </li>
         </ul>
       </div>
@@ -49,6 +54,9 @@ export default {
     },
     team() {
       this.$router.push("/team");
+    },
+    gallery() {
+      this.$router.push("/gallery");
     }
   },
   async mounted() {

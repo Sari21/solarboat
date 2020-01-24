@@ -1,0 +1,26 @@
+[
+  {
+    "title": "EZ a címe",
+    "description": "Ez a szép kis leírása, hogy mikor készültek ezek a fotók",
+    "images": [
+      "/gallery/cat3.jpg",
+      "/gallery/cat4.jpg",
+      "/gallery/cat7.jpg",
+      "/gallery/cat5.jpg",
+      "/gallery/cat6.jpg"
+    ]
+  },
+  {
+    "title": "EZ a címe",
+    "description": "Ez a szép kis leírása, hogy mikor készültek ezek a fotók",
+    "images": [
+      "/gallery/cat1.jpg",
+      "/gallery/cat2.jpg",
+      "/gallery/cat3.jpg",
+      "/gallery/cat4.jpg",
+      "/gallery/cat7.jpg",
+      "/gallery/cat5.jpg",
+      "/gallery/cat6.jpg"
+    ]
+  }
+]
