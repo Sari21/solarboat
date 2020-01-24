@@ -141,7 +141,7 @@ export default {
 }
 #img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .members div {
   font-size: 1rem;

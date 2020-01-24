@@ -7,24 +7,27 @@
           <div>
             <BIconArrowRight class="arrow" @click="modalShow = !modalShow"></BIconArrowRight>
 
-            <b-modal v-model="modalShow" ok-only>
+            <b-modal class="modal text-center" v-model="modalShow" ok-only>
               <h1>{{ item.title }}</h1>
-              <img
-                class="col-1 img-fluid m-0-0-0-3 img"
-                v-bind:src="`../images/`+ item.image"
-                alt="Image"
-              />
-              <p>{{ item.description }}</p>
+              <p>
+                <img
+                  class="col-6 mr-2 mb-2 p-0"
+                  align="left"
+                  v-bind:src="`/news/`+ item.image"
+                  alt="Image"
+                />
+                {{ item.description }}
+              </p>
             </b-modal>
           </div>
         </div>
-        <div class="row col-12 date">
+        <div class="row col-12 date mt-2 mb-2">
           <BIconCalendarFill class="mr-2"></BIconCalendarFill>
           <div>{{ item.date }}</div>
         </div>
         <div class="row description">
           <div class="col-9">{{ item.shortDescription }}</div>
-          <img class="col-3 img-fluid m-0-0-0-3" src="../images/cat.jpg" alt="Image" />
+          <img class="col-3 m-0-0-0-3" v-bind:src="`/news/`+ item.image" alt="Image" />
         </div>
       </div>
     </div>
@@ -35,13 +38,12 @@ import { BIconCalendarFill, BIconArrowRight } from "bootstrap-vue";
 
 export default {
   name: "News",
+  props: ["item"],
   data() {
     return {
-      item: [],
       modalShow: false
     };
   },
-  props: {},
   components: {
     BIconCalendarFill,
     BIconArrowRight
@@ -74,9 +76,5 @@ export default {
 }
 .arrow {
   font-size: 200%;
-}
-.img {
-  width: 90%;
-  height: auto;
 }
 </style>
