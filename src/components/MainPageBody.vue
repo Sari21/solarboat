@@ -1,6 +1,6 @@
 <template>
   <div id="body" class="page">
-    <div class="content col-md-6 mb-5">
+    <div class="content col-sm-12 col-lg-6 col-md-9 mb-5">
       <div class="title pt-5 text-center">
         <h1>BME Solar Boat Team</h1>
       </div>

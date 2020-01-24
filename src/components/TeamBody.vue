@@ -1,6 +1,6 @@
 <template>
   <div id="body" class="page">
-    <div class="content col-md-6 p-3">
+    <div class="content col-sm-12 col-lg-6 col-md-9 p-3">
       <div class="title p-4 md-pt-5">
         <h1>Csapatunk</h1>
       </div>
