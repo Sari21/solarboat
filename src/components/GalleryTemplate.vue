@@ -1,7 +1,11 @@
 <template>
   <div id="gallerytemplate">
     <div class="jumbotron m-0-1-0-1 p-2">
-      <div class="p-1 m-0 container text-center"></div>
+      <div class="p-1 container text-center">
+        <h2>{{ gallery.title }}</h2>
+
+        <p>{{ gallery.description }}</p>
+      </div>
       <img
         class="col-3 p-1 gallery"
         v-for="(image, i) in gallery.images"
