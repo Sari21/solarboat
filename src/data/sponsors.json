@@ -199,13 +199,16 @@
   ],
   "departments": [
     {
-      "name": "mvt"
+      "name": "mvt",
+      "link": "http://mvt.bme.hu/"
     },
     {
-      "name": "aut"
+      "name": "aut",
+      "link": "https://www.aut.bme.hu/"
     },
     {
-      "name": "gt3"
+      "name": "gt3",
+      "link": "http://gt3.bme.hu/"
     }
   ]
 }

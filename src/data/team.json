@@ -6,16 +6,16 @@
     "description": "A csoport feladatai közé tartozik a különböző elemekhez szükséges gyártástechnológia és anyaghasználat megválasztása, illetve a gyártás kivitelezése",
     "description_en": "This group is responsible for the proper use of materials and also for the production",
     "leader": {
-      "firstname": "Márk",
-      "lastname": "Bakonyi",
-      "image": "bakonyi-mark"
+      "firstname": "András",
+      "lastname": "Pintér",
+      "image": "pinter-andras"
     },
     "members": [
       {
         "id": 0,
-        "firstname": "András",
-        "lastname": "Pintér",
-        "image": "pinter-andras"
+        "firstname": "Márk",
+        "lastname": "Bakonyi",
+        "image": "bakonyi-mark"
       },
       {
         "id": 1,
@@ -54,9 +54,9 @@
   },
   {
     "id": 1,
-    "title": "Elektronikai munkacsoport",
+    "title": "Elektronikai csoport",
     "title_en": "Electronics workgroup",
-    "description": "A csapat feladatai közé tartozik az elektronikai rendszertervek elkészítése, illetve az elektronikai komponensek telepítése a hajóba. Emellett az idei terveink között szerepel az IoT technológiákban rejlő lehetőségek felhasználása is.",
+    "description": "Az elektronikai csoport két részegységből áll: Elektrotechnika és Informatika. Az elektronikai csoport legfontosabb feladatai a hajó energia ellátásának a biztosítása és monitorozása. Számos villamos energetikai, valamint informatikai projekt köthető a csoporthoz, mint például akkumulátor design, töltésvezérlés tervezése, vagy szenzorok közötti kommunikáció. A 2020-as versenyszezontól a csapat nagy figyelmet fordít a felhő alapú IoT technológiákban rejlő lehetőségekre is.",
     "description_en": "This team is responsible for the electrical design and for the installation of the electrical components. This year the team focuses on the possibilities of the IoT technologoies as well.",
     "leader": {
       "firstname": "Márk",
@@ -92,19 +92,7 @@
     "images": [
       {
         "id": 0,
-        "name": "csapatkép_1.png"
-      },
-      {
-        "id": 1,
-        "name": "csapatkép_2.png"
-      },
-      {
-        "id": 2,
-        "name": "kep.jpg"
-      },
-      {
-        "id": 4,
-        "name": "kep2.jpg"
+        "name": "elektronika.jpg"
       }
     ]
   },
@@ -112,7 +100,7 @@
     "id": 2,
     "title": "Gazdasági csoport",
     "title_en": "Economic workgroup",
-    "description": "A munkacsoport fő feladatai közé tartozik a projekt pénzügyeinek a kezelése, valamint a csapatot érintő kommunikációs és marketing tevékenységek lebonyolítása is!",
+    "description": "A Gazdasági csoport további két részegységre tagolható: Pénzügy & Stratégia és Business Marketing. A Gazdasági csoport fő feladatai közé tartozik a csapat költségvetésének kezelése, illetve a marketing tevékenységek ellátása. Ezek mellett a megjelenések és a csapatépítő programok megszervezése is részét képezi a csapat tevékenységeinek.",
     "description_en": "This group is responsible for the finances of the project and also for the communication and the marketing activity!",
     "leader": {
       "firstname": "Szilárd",
@@ -148,19 +136,7 @@
     "images": [
       {
         "id": 0,
-        "name": "csapatkép_1.png"
-      },
-      {
-        "id": 1,
-        "name": "csapatkép_2.png"
-      },
-      {
-        "id": 2,
-        "name": "kep.jpg"
-      },
-      {
-        "id": 4,
-        "name": "kep2.jpg"
+        "name": "gazdasag.jpg"
       }
     ]
   },
