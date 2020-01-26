@@ -1,26 +1,18 @@
 [
   {
-    "title": "EZ a címe",
-    "description": "Ez a szép kis leírása, hogy mikor készültek ezek a fotók",
     "images": [
-      "/gallery/cat3.jpg",
-      "/gallery/cat4.jpg",
-      "/gallery/cat7.jpg",
-      "/gallery/cat5.jpg",
-      "/gallery/cat6.jpg"
-    ]
-  },
-  {
-    "title": "EZ a címe",
-    "description": "Ez a szép kis leírása, hogy mikor készültek ezek a fotók",
-    "images": [
-      "/gallery/cat1.jpg",
-      "/gallery/cat2.jpg",
-      "/gallery/cat3.jpg",
-      "/gallery/cat4.jpg",
-      "/gallery/cat7.jpg",
-      "/gallery/cat5.jpg",
-      "/gallery/cat6.jpg"
+      "/gallery/1.jpg",
+      "/gallery/2.jpg",
+      "/gallery/3.jpg",
+      "/gallery/4.jpg",
+      "/gallery/5.jpg",
+      "/gallery/6.jpg",
+      "/gallery/7.jpg",
+      "/gallery/8.jpg",
+      "/gallery/9.jpg",
+      "/gallery/11.jpg",
+      "/gallery/10.jpg",
+      "/gallery/12.jpg"
     ]
   }
 ]

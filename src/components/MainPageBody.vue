@@ -27,16 +27,18 @@
           Felállott két lábra a kút gárgyája mellé, s benézett a kútba.
         </p>
       </div>
-      <div class="title p-4">
-        <h2>Hírek</h2>
-      </div>
-      <div class="scrollable">
-        <News
-          class="news"
-          v-for="item in allNews.slice().reverse()"
-          v-bind:key="item.id"
-          v-bind:item="item"
-        ></News>
+      <div class="allnews">
+        <div class="title text-center p-4">
+          <h2>Hírek</h2>
+        </div>
+        <div class="scrollable">
+          <News
+            class="news"
+            v-for="item in allNews.slice().reverse()"
+            v-bind:key="item.id"
+            v-bind:item="item"
+          ></News>
+        </div>
       </div>
     </div>
   </div>
@@ -79,7 +81,7 @@ export default {
   width: 100%;
 }
 div.scrollable {
-  height: 35rem;
+  height: 90vh;
   overflow: auto;
   overflow-x: hidden;
 }
