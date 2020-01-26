@@ -1,7 +1,7 @@
 <template>
   <div id="body" class="page">
     <div class="content col-md-6">
-      <div class="title text-center m-4">Fő támogatóink</div>
+      <div class="title text-center m-4">Fő szponzoraink</div>
       <div class="photos">
         <a
           v-for="sponsor in allSponsors.main_sponsors"
@@ -12,7 +12,7 @@
           <img class="col-6 p-2" v-bind:src="'/sponsors/'+sponsor.name+'.png'" />
         </a>
       </div>
-      <div class="title text-center m-3">Kiemelt támogatóink</div>
+      <div class="title text-center m-3">Kiemelt szponzoraink</div>
       <div class="photos">
         <a
           v-for="sponsor in allSponsors.exclusive_sponsors"
@@ -23,7 +23,7 @@
           <img v-bind:src="'/sponsors/'+sponsor.name+'.png'" class="col-6 p-2" />
         </a>
       </div>
-      <div class="title text-center m-3">Támogatóink</div>
+      <div class="title text-center m-3">Szponzoraink</div>
       <div class="photos">
         <a
           v-for="sponsor in allSponsors.sponsors"
@@ -35,27 +35,30 @@
         </a>
       </div>
       <div class="title text-center m-3">Tudományos partnereink</div>
-      <div class="text-center">
-        <a href="#" target="blank">
-          <img src="/sponsors/MTA.png" class="col-3 p-2" />
+      <div class="text-center photos">
+        <a href=" https://www.energia.mta.hu/" target="blank">
+          <img src="/sponsors/ek.png" class="col-7 p-2" />
         </a>
       </div>
       <div class="title text-center m-3">Budapesti Műszaki és Gazdaságtudományi Egyetem</div>
-      <div class="text-center">
-        <a href="#" target="blank">
+      <div class="text-center photos">
+        <a href="https://www.bme.hu/" target="blank">
           <img src="/sponsors/bme.png" class="col-7 p-2" />
         </a>
       </div>
-      <div class="text-center">
-        <a href="#" target="blank">
-          <img src="/sponsors/mvk.png" class="col-6 p-2" />
+      <div class="text-center photos">
+        <a href="https://www.facebook.com/bmemvk/" target="blank">
+          <img src="/sponsors/mvk.png" class="col-4 p-2" />
+        </a>
+        <a href="http://ehk.bme.hu/" target="blank">
+          <img src="/sponsors/ehk.png" class="col-4 p-2" />
         </a>
       </div>
 
       <hr />
-      <div class="text-center">
-        <a href="#" target="blank">
-          <img src="/sponsors/gpk.png" class="col-6 p-2" />
+      <div class="text-center photos">
+        <a href="https://gpk.bme.hu/hu/" target="blank">
+          <img src="/sponsors/gpk.png" class="col-3 p-2" />
         </a>
       </div>
 
@@ -86,12 +89,6 @@ export default {
 };
 </script>
 <style >
-.page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-}
 .title {
   font-size: 1.7rem;
 }
@@ -105,5 +102,7 @@ hr {
   border-width: 1px;
   color: white;
   width: 100%;
+}
+.photos img {
 }
 </style>

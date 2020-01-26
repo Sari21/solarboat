@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="jumbotron m-0-1-0-1 p-2">
+    <div class="jumbotron m-0-1-0-1 p-2 news" @click="modalShow = !modalShow">
       <div class="p-1 container">
         <div class="row title">
           <div class="col-9">{{ item.title }}</div>
           <div>
-            <BIconArrowRight class="arrow" @click="modalShow = !modalShow"></BIconArrowRight>
+            <BIconArrowRight class="arrow"></BIconArrowRight>
 
             <b-modal class="modal text-center" v-model="modalShow" ok-only>
               <h1>{{ item.title }}</h1>
@@ -76,5 +76,12 @@ export default {
 }
 .arrow {
   font-size: 200%;
+}
+.arrow:hover {
+  color: lightgray;
+}
+.news:hover {
+  background: #3e889e;
+  cursor: pointer;
 }
 </style>

@@ -88,8 +88,6 @@
           </div>
         </div>-->
       </div>
-
-      <div class="works text-center mb-3">Munkáink</div>
       <div class="photos">
         <img
           v-for="photo in team.images"

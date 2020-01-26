@@ -1,7 +1,23 @@
 <template>
   <div id="body" class="page">
-    <h1 class=" p-4 md-pt-5">Galéria</h1>
-    <div class="d-flex flex-column justify-content-center col-8">
+    <h1 class="p-4 md-pt-5">Galéria</h1>
+
+    <div class="d-flex flex-column justify-content-center col-12 col-md-8">
+      <div class="m-0-1-0-1 p-2">
+        <!-- Ide jön a rendes videó
+          <video class="col-8" controls>
+          <source
+            src="https://drive.google.com/open?id=1iYPANYfx-hgEZwfbv4Z_lKDT2jVMedmR"
+            type="video/mp4"
+          />Your browser does not support the video tag.
+        </video>
+        -->
+        <iframe
+          src="https://drive.google.com/file/d/1YBJcGnnUcpAKKIIrJrjJRqNmThyU5IKn/preview"
+          width="640"
+          height="480"
+        ></iframe>
+      </div>
       <gallery-template
         v-for="gallery in allGallery"
         v-bind:key="gallery.id"
@@ -32,12 +48,4 @@ export default {
 };
 </script>
 <style>
-.page {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*color: white;*/
-  justify-content: center;
-}
 </style>

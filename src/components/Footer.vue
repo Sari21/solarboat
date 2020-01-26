@@ -3,7 +3,7 @@
     <div class="contact text-center pt-5">
       <p class="cont2">Elérhetőségek</p>
       <div class="cont">
-        <BIconEnvelope class="mr-3"></BIconEnvelope>szilard.czibere@solarboatteam.hu
+        <BIconEnvelope class="mr-3"></BIconEnvelope>info@solarboatteam.hu
       </div>
       <div class="cont">
         <BIconPhone class="mr-3"></BIconPhone>+36-30-73-16-221
@@ -64,7 +64,7 @@ export default {
   align-items: center;
 }
 .cont2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   display: flex;
   align-items: center;
 }
