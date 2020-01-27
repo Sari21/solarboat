@@ -1,11 +1,13 @@
 <template>
   <div id="body" class="page">
-    <div class="content col-sm-12 col-lg-6 col-md-9 p-3">
+    <div class="content col-12 col-xl-6 col-md-9">
       <div class="title p-4 md-pt-5">
-        <h1>Csapatunk</h1>
+        <h2>Csapatunk</h2>
       </div>
-      <div class="description md-p-3">
-        <p>A BME Solar Boat Team 3 fő szakmai egységre tagolható: Gépészet, Gazdaság, Elektronika (GGE). A csapat élén a csapatkapitány áll, akinek elsődleges feladata a csapat vezetése és koordinálása, valamint a három fő szakmai egység munkájának a harmonizálása a csapaton belül. Minden szakmai egység élén egy csoportvezető áll, aki összekapcsolja a csoporton belül futó projekteket.</p>
+      <div class="container jumbotron pr-3 pl-3 pt-2 pb-2 mb-3">
+        <p
+          class="description p-3 m-0"
+        >A BME Solar Boat Team 3 fő szakmai egységre tagolható: Gépészet, Gazdaság, Elektronika (GGE). A csapat élén a csapatkapitány áll, akinek elsődleges feladata a csapat vezetése és koordinálása, valamint a három fő szakmai egység munkájának a harmonizálása a csapaton belül. Minden szakmai egység élén egy csoportvezető áll, aki összekapcsolja a csoporton belül futó projekteket.</p>
       </div>
       <div class="container jumbotron m-0-1-0-1 pt-1 pr-3 pl-3 pb-2">
         <TeamTemplate v-bind:team="allTeams[2]"></TeamTemplate>
@@ -20,7 +22,7 @@
           class="description p-3 mb-3"
         >A gépészeti csoportban két részegység található: Anyagtechnológia és Konstrukciós tervezés & Szimuláció.</div>
 
-        <div class="title2 text-center m-3">{{allTeams[0].title}}</div>
+        <div class="title2 title text-center m-3">{{allTeams[0].title}}</div>
 
         <div class="justify-content-center d-flex row align-items-center members mb-3">
           <div class="d-flex flex-column col-5 col-sm-4 col-md-3 p-1 align-items-center">
@@ -50,7 +52,7 @@
         <div class="description p-3 mb-3">
           <div>{{allTeams[0].description}}</div>
         </div>
-        <div class="title2 text-center m-3">{{allTeams[3].title}}</div>
+        <div class="title2 title text-center m-3">{{allTeams[3].title}}</div>
 
         <div class="justify-content-center d-flex row align-items-center members mb-3">
           <div class="d-flex flex-column col-5 col-sm-4 col-md-3 p-1 align-items-center">
@@ -116,13 +118,12 @@ export default {
   align-items: center;
   padding: 0px;
 }
-.description {
-  text-align: justify;
-}
+
 .news {
   width: 100%;
 }
 .title2 {
   font-size: 1.5rem;
+  text-decoration: underline white 1px;
 }
 </style>

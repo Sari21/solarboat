@@ -4,6 +4,7 @@ import MainPage from "@/components/MainPage";
 import Sponsors from "@/components/Sponsors";
 import Team from "@/components/Team";
 import Gallery from "@/components/Gallery";
+import AboutUs from "@/components/AboutUs";
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: "/gallery",
       name: "Gallery",
       component: Gallery
+    },
+    {
+      path: "/aboutus",
+      name: "AboutUs",
+      component: AboutUs
     }
   ]
 });

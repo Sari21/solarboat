@@ -1,7 +1,7 @@
 <template>
   <div id="footer">
     <div class="contact text-center pt-5">
-      <p class="cont2">Elérhetőségek</p>
+      <p class="cont2 title">Elérhetőségek</p>
       <div class="cont">
         <BIconEnvelope class="mr-3"></BIconEnvelope>info@solarboatteam.hu
       </div>

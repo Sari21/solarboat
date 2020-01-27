@@ -32,7 +32,18 @@
   color: white;
   justify-content: center;
 }
-
+.description {
+  text-align: justify;
+}
+.title {
+  text-shadow: 2px 2px #3e5480;
+}
+.title h1 {
+  font-weight: bold;
+}
+.title h2 {
+  font-weight: bold;
+}
 /*@media screen and (min-width: 100px) and (max-width: 480px) {
   #body {
     width: 100%;

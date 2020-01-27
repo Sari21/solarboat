@@ -1,11 +1,12 @@
 <template>
   <div id="header">
-    <nav class="navbar navbar-expand-lg navbar-light my-navbar">
+    <nav class="navbar navbar-expand-lg my-navbar">
       <img
-        class="img-responsive ml-5 mr-5"
+        class="img-responsive ml-5 mr-4"
         alt="SBT"
         src="../images/solar logo.png"
         style="width: 150px;"
+        @click="mainPage"
       />
       <button
         class="navbar-toggler"
@@ -22,15 +23,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link ml-4 mr-4" @click="mainPage">Főoldal</a>
+            <a class="nav-link mainmenu" @click="mainPage">Főoldal</a>
           </li>
-          <li class="nav-item ml-4 mr-4">
+          <li class="nav-item">
+            <a class="nav-link" @click="aboutus">Rólunk</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" @click="team">Csapatunk</a>
           </li>
-          <li class="nav-item ml-4 mr-4">
+          <li class="nav-item">
             <a class="nav-link" @click="sponsors">Szponzoraink</a>
           </li>
-          <li class="nav-item ml-4 mr-4">
+          <li class="nav-item">
             <a class="nav-link" @click="gallery">Galéria</a>
           </li>
         </ul>
@@ -54,6 +58,9 @@ export default {
     },
     gallery() {
       this.$router.push("/gallery");
+    },
+    aboutus() {
+      this.$router.push("/aboutus");
     }
   },
   async mounted() {
@@ -73,6 +80,21 @@ a {
   background: rgb(134, 191, 226);
 }
 .nav-item {
+  color: rgb(6, 87, 194);
   font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px #121925;
+}
+.nav-item:hover {
+  color: rgb(5, 70, 155);
+}
+.mainmenu {
+  color: rgb(2, 63, 143);
+}
+.mainmenu:hover {
+  color: rgb(1, 41, 94);
+}
+nav > img {
+  cursor: pointer;
 }
 </style>
