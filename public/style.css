@@ -13,7 +13,7 @@
 }
 
 #body {
-  background-image: url("bg3.png"), url("bg2.png");
+  background-image: url("laptop.png"), url("bg2.png");
   background-repeat: no-repeat, repeat-y;
   background-size: 100%, 100%;
   background-position: center top, center bottom;
@@ -44,13 +44,13 @@
 .title h2 {
   font-weight: bold;
 }
-/*@media screen and (min-width: 100px) and (max-width: 480px) {
-  #body {
-    width: 100%;
-  }
+
+@media screen and (max-width: 425px) {
+    #body {
+        background-image: url("bg3.png"), url("bg2.png");
+        background-repeat: no-repeat, repeat-y;
+        background-size: 100%, 100%;
+        background-position: center top, center bottom;
+    }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
-  #body {
-    max-width: 100%;
-  }
-}*/
+}
