@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <nav class="navbar navbar-expand-lg my-navbar">
+    <nav class="navbar navbar-expand-lg my-navbar navbar-dark">
       <img
         class="img-responsive ml-5 mr-4"
         alt="SBT"
@@ -21,23 +21,33 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link mainmenu" @click="mainPage">Főoldal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" @click="aboutus">Rólunk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" @click="team">Csapatunk</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" @click="sponsors">Szponzoraink</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" @click="gallery">Galéria</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <router-link to="/">
+                      <a class="nav-link pl-5">hírek</a>
+                  </router-link>
+              </li>
+              <li class="nav-item">
+                  <router-link to="/aboutus">
+                      <a class="nav-link pl-5" @click="aboutus">rólunk</a>
+                  </router-link>
+              </li>
+              <li class="nav-item">
+                  <router-link to="/team">
+                      <a class="nav-link pl-5" @click="team">csapatunk</a>
+                  </router-link>
+              </li>
+              <li class="nav-item">
+                  <router-link to="/sponsors">
+                      <a class="nav-link pl-5" @click="sponsors">szponzoraink</a>
+                  </router-link>
+              </li>
+              <li class="nav-item">
+                  <router-link to="/gallery">
+                      <a class="nav-link pl-5" @click="gallery">galéria</a>
+                  </router-link>
+              </li>
+          </ul>
       </div>
     </nav>
   </div>
@@ -45,24 +55,11 @@
 
 <script>
 export default {
-  name: "Header",
-  methods: {
-    mainPage() {
-      this.$router.push("/");
+    name: "Header",
+    data() {
+        return {
+        };
     },
-    sponsors() {
-      this.$router.push("/sponsors");
-    },
-    team() {
-      this.$router.push("/team");
-    },
-    gallery() {
-      this.$router.push("/gallery");
-    },
-    aboutus() {
-      this.$router.push("/aboutus");
-    }
-  },
   async mounted() {
     try {
       this.currentRoute = this.$route.name;
@@ -73,29 +70,36 @@ export default {
 };
 </script>
 <style scoped>
+   
 a {
   cursor: pointer;
 }
 .my-navbar {
-  background: rgb(134, 191, 226);
+  background: #ACDBE2;
 }
+
+
 .nav-item {
   color: rgb(6, 87, 194);
   font-size: 1.3rem;
-  font-weight: bold;
-  text-shadow: 1px 1px #121925;
   font-variant: small-caps;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px grey;
+  text-shadow: 1px 1px #121925;
 }
 .nav-item:hover {
   color: rgb(5, 70, 155);
 }
-.mainmenu {
-  color: rgb(2, 63, 143);
+.router-link-active a.nav-link {
+    color: white;
 }
-.mainmenu:hover {
-  color: rgb(1, 41, 94);
+a:hover{
+    text-decoration: none;
 }
 nav > img {
   cursor: pointer;
 }
+
+
+
 </style>

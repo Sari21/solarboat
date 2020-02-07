@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src"
+    "\\public\\workgroups",
+    "\\src",
+    "\\src\\components"
   ],
   "SelectedNode": "\\public\\index.html",
   "PreviewInSolutionExplorer": false
