@@ -81,9 +81,10 @@ a {
 }
 .nav-item {
   color: rgb(6, 87, 194);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-shadow: 1px 1px #121925;
+  font-variant: small-caps;
 }
 .nav-item:hover {
   color: rgb(5, 70, 155);

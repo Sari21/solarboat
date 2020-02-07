@@ -4,7 +4,7 @@
       <div class="title pt-5 text-center">
         <h2>Rólunk</h2>
       </div>
-      <div class="jumbotron p-3 m-0">
+      <div class="jumbotron container p-3 m-0">
         <p
           class="description p-3 m-0"
         >2014-ben a Gépészmérnöki Kar három gépészmérnök hallgatója alapította BME Solar Boat Team csapatot, mely azzal a céllal jött létre, hogy egy kizárólag napenergiával működő, ember által vezetett, teljesen elektromos hajtású versenyhajót tervezzen és építsen, és ezzel a járművel 2016-ban a Hollandiában és Monte-Carlóban megrendezésre kerülő Dutch Solar Challenge Világbajnokság és Solar 1 Races megmérettetésein sikerrel szálljon versenybe.</p>

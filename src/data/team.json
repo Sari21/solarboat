@@ -168,5 +168,48 @@
         "image": "visnyei-abel"
       }
     ]
+  },
+  {
+    "id": 3,
+    "title": "Vezetőség",
+    "title_en": "Vezetőség anglul",
+    "description": "Valami leírás róluk, ha kell",
+    "description_en": "This workgroup is responsible for the blueprints and the simulations of the mechanical components.",
+    "leader": {
+      "firstname": "Szilárd",
+      "lastname": "Czibere",
+      "image": "czibere-szilard",
+      "post": "Csapatkapitány és Gazdasági vezető"
+    },
+    "members": [
+      {
+        "id": 0,
+        "firstname": "Márk",
+        "lastname": "Kecskés",
+        "image": "kecskes-mark",
+        "post": "Elektronikai csoportvezető"
+      },
+      {
+        "id": 1,
+        "firstname": "Ábel",
+        "lastname": "Visnyei",
+        "image": "visnyei-abel",
+        "post": "Gépészeti vezető"
+      },
+      {
+        "id": 2,
+        "firstname": "András",
+        "lastname": "Pintér",
+        "image": "pinter-andras",
+        "post": "Anyagtechnológiai csoportvezető"
+      },
+      {
+        "id": 3,
+        "firstname": "Zalán",
+        "lastname": "Petőcz",
+        "image": "petocz-zalan",
+        "post": "Konstrukció & Sziuláció csoportvezető"
+      }
+    ]
   }
 ]
