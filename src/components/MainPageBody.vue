@@ -1,9 +1,9 @@
 <template>
   <div id="body" class="page">
     <div class="content col-12 col-xl-6 col-md-9 mb-5">
-      <div class="title pt-5 text-center">
-        <h1>BME Solar Boat Team</h1>
-      </div>
+        <div class="title pt-6 pb-6 text-center ">
+            <h1>BME Solar Boat Team</h1>
+        </div>
 
       <div class="allnews">
         <div class="title text-center p-4">
@@ -48,7 +48,11 @@ export default {
 .description {
   text-align: justify;
 }
-
+.title h1{
+    font-size: 5rem;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px grey;
+}
 .news {
   width: 100%;
 }

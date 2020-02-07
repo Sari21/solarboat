@@ -9,15 +9,27 @@
 }
 
 #header {
-  background: #ffffff;
+    background: #ACDBE2;
 }
 
 #body {
-  background-image: url("laptop.png"), url("bg2.png");
-  background-repeat: no-repeat, repeat-y;
-  background-size: 100%, 100%;
-  background-position: center top, center bottom;
+    background-image: url("laptop.png"), url("bg2.png");
+    background-repeat: no-repeat, repeat-y;
+    background-size: 100%, 100%;
+    background-position: center top, center bottom;
 }
+
+@media only screen and (max-width: 768px) {
+    #body {
+        background-image: url("mobile.png"), url("bg2.png");
+        background-repeat: no-repeat, repeat-y;
+        background-size: 100%, 100%;
+        background-position: center top, center bottom;
+    }
+}
+
+
+
 #footer {
   background-image: url("bg2.png");
   background-repeat: repeat-y;
@@ -44,13 +56,12 @@
 .title h2 {
   font-weight: bold;
 }
+.pt-6,
+.py-6 {
+    padding-top: 8rem !important;
+}
+.pb-6 {
+    padding-bottom: 8rem !important;
+}
 
-@media screen and (max-width: 425px) {
-    #body {
-        background-image: url("bg3.png"), url("bg2.png");
-        background-repeat: no-repeat, repeat-y;
-        background-size: 100%, 100%;
-        background-position: center top, center bottom;
-    }
-}
-}
+
