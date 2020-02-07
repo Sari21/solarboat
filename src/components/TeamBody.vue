@@ -7,8 +7,46 @@
       <div class="container jumbotron pr-3 pl-3 pt-2 pb-2 mb-3">
         <p
           class="description p-3 m-0"
-        >A BME Solar Boat Team 3 fő szakmai egységre tagolható: Gépészet, Gazdaság, Elektronika (GGE). A csapat élén a csapatkapitány áll, akinek elsődleges feladata a csapat vezetése és koordinálása, valamint a három fő szakmai egység munkájának a harmonizálása a csapaton belül. Minden szakmai egység élén egy csoportvezető áll, aki összekapcsolja a csoporton belül futó projekteket.</p>
+        >A BME Solar Boat Team 3 fő szakmai egységre tagolható: Gépészet, Gazdaság, Elektronika (GGE). A csapat élén a csapatkapitány áll, akinek elsődleges feladata a csapat vezetése és koordinálása, valamint a három fő szakmai egység munkájának a harmonizálása a csapaton belül.</p>
       </div>
+
+      <div class="container jumbotron m-0-1-0-1 pt-1 pr-3 pl-3 pb-2">
+        <div class="title text-center m-3">{{allTeams[4].title}}</div>
+
+        <div class="d-flex flex-row members mb-3 justify-content-center flex-wrap">
+          <div class="d-flex flex-column flex-wrap col-5 col-sm-4 col-md-3 p-1">
+            <img
+              class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
+              v-bind:src="'/members/'+allTeams[4].leader.image+'.png'"
+            />
+            <div class="text-center font-weight-bold leader">
+              {{allTeams[4].leader.lastname}}
+              <br />
+              {{allTeams[4].leader.firstname}}
+              <div class="post">{{allTeams[4].leader.post}}</div>
+            </div>
+          </div>
+
+          <div
+            v-for="member in allTeams[4].members"
+            v-bind:key="member.id"
+            class="d-flex flex-column col-4 col-sm-2 col-md-2 p-1 member pt-5"
+          >
+            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.png'" />
+            <div class="text-center">
+              {{member.lastname}}
+              <br />
+              {{member.firstname}}
+            </div>
+
+            <div class="text-center leader post">{{member.post}}</div>
+          </div>
+        </div>
+        <div class="description p-3 mb-3">
+          <div>{{allTeams[4].description}}</div>
+        </div>
+      </div>
+
       <div class="container jumbotron m-0-1-0-1 pt-1 pr-3 pl-3 pb-2">
         <TeamTemplate v-bind:team="allTeams[2]"></TeamTemplate>
       </div>
@@ -52,6 +90,14 @@
         <div class="description p-3 mb-3">
           <div>{{allTeams[0].description}}</div>
         </div>
+        <div class="photos">
+          <img
+            v-for="photo in allTeams[0].images"
+            v-bind:src="'/workgroups/'+photo.name"
+            v-bind:key="photo.id"
+            class="col-8 p-1"
+          />
+        </div>
         <div class="title2 title text-center m-3">{{allTeams[3].title}}</div>
 
         <div class="justify-content-center d-flex row align-items-center members mb-3">
@@ -80,11 +126,11 @@
           </div>
         </div>
         <div class="description p-3 mb-3">
-          <div>{{allTeams[0].description}}</div>
+          <div>{{allTeams[3].description}}</div>
         </div>
         <div class="photos">
           <img
-            v-for="photo in allTeams[0].images"
+            v-for="photo in allTeams[3].images"
             v-bind:src="'/workgroups/'+photo.name"
             v-bind:key="photo.id"
             class="col-8 p-1"
@@ -125,5 +171,10 @@ export default {
 .title2 {
   font-size: 1.5rem;
   text-decoration: underline white 1px;
+}
+.post.leader {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  font-style: italic;
 }
 </style>

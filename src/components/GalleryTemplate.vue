@@ -1,6 +1,6 @@
 <template>
   <div id="gallerytemplate">
-    <div class="jumbotron m-0-1-0-1 p-2">
+    <div class="jumbotron container m-0-1-0-1 p-2">
       <div class="p-1 container text-center">
         <h2>{{ gallery.title }}</h2>
 

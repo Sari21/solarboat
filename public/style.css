@@ -46,11 +46,13 @@
 }
 
 @media screen and (max-width: 425px) {
-    #body {
-        background-image: url("bg3.png"), url("bg2.png");
-        background-repeat: no-repeat, repeat-y;
-        background-size: 100%, 100%;
-        background-position: center top, center bottom;
-    }
+  #body {
+    background-image: url("bg3.png"), url("bg2.png");
+    background-repeat: no-repeat, repeat-y;
+    background-size: 100%, 100%;
+    background-position: center top, center bottom;
+  }
 }
+.jumbotron.container {
+  background-color: rgb(27, 121, 150, 0.7);
 }
