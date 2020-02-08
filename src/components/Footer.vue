@@ -1,14 +1,14 @@
 <template>
   <div id="footer">
-    <div class="contact text-center pt-5">
-      <p class="cont2 title">Elérhetőségek</p>
-      <div class="cont">
-        <BIconEnvelope class="mr-3"></BIconEnvelope>info@solarboatteam.hu
+      <div class="contact text-center pt-5">
+          <h2 class="cont2 pb-2">Elérhetőségek</h2>
+          <div class="cont">
+              <BIconEnvelope class="mr-3 icon"></BIconEnvelope>info@solarboatteam.hu
+          </div>
+          <div class="cont pr-4">
+              <BIconPhone class="mr-3 icon"></BIconPhone>+36-30-73-16-221
+          </div>
       </div>
-      <div class="cont">
-        <BIconPhone class="mr-3"></BIconPhone>+36-30-73-16-221
-      </div>
-    </div>
     <div class="column text-center d-flex mb-1 justify-content-center">
       <div class="col-10 col-md-12">
         <a href="https://www.bme.hu/" target="blank">
@@ -31,7 +31,7 @@
 
     <div class="text-center">
       <a href="https://schdesign.hu/">
-        <img src="../images/schdesign.png" class="col-6 col-sm-4 col-md-2" />
+        <img src="../images/schdesign.png" class="col-6 col-sm-4 col-md-2 schdesign-logo" />
       </a>
     </div>
   </div>
@@ -58,19 +58,24 @@ export default {
   display: flex;
   flex-direction: column;
 }
-
+.icon{
+   font-size: 2rem;
+}
 .cont {
   display: flex;
   align-items: center;
+  font-size: 1rem;
 }
-.cont2 {
-  font-size: 2rem;
+h2.cont2 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px black;
   display: flex;
   align-items: center;
 }
 .image {
   flex-shrink: 4;
 }
+
 /*.designer img {
   display: flex;
   width: 300px;

@@ -56,7 +56,7 @@ export default {
   position: absolute;
 }*/
 .jumbotron {
-  background: #1b7996;
+  background-color: rgb(27, 121, 150, 0.6);
 }
 .date {
   display: flex;

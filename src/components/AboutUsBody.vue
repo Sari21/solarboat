@@ -2,7 +2,7 @@
   <div id="body" class="page">
     <div class="content col-12 col-xl-6 col-md-9 mb-5">
       <div class="title pt-5 text-center">
-        <h2>Rólunk</h2>
+        <h1>Rólunk</h1>
       </div>
       <div class="jumbotron container p-3 m-0">
         <p

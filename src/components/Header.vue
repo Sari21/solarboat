@@ -85,7 +85,6 @@ a {
   font-variant: small-caps;
   font-weight: bold;
   text-shadow: 2px 2px 5px grey;
-  text-shadow: 1px 1px #121925;
 }
 .nav-item:hover {
   color: rgb(5, 70, 155);

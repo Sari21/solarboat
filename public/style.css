@@ -13,28 +13,28 @@
 }
 
 #body {
-    background-image: url("laptop.png"), url("bg2.png");
-    background-repeat: no-repeat, repeat-y;
-    background-size: 100%, 100%;
-    background-position: center top, center bottom;
+    background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("laptop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% auto;
+    background-position: center bottom, center top;
 }
 
 @media only screen and (max-width: 768px) {
     #body {
-        background-image: url("mobile.png"), url("bg2.png");
-        background-repeat: no-repeat, repeat-y;
-        background-size: 100%, 100%;
-        background-position: center top, center bottom;
+        background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%, 100% auto;
+        background-position: center bottom, center top;
     }
 }
 
 
 
 #footer {
-  background-image: url("bg2.png");
-  background-repeat: repeat-y;
-  background-size: 100%;
-  background-position: center bottom;
+    background-color: rgba(27,38,47,1);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center bottom;
 }
 .page {
   text-align: center;
@@ -47,23 +47,26 @@
 .description {
   text-align: justify;
 }
-.title {
-  text-shadow: 2px 2px #3e5480;
+.title h2 {
+    text-shadow: 2px 2px 5px grey;
+    font-size: 4rem;
+    font-weight: normal;
 }
 .title h1 {
-  font-weight: bold;
+    font-size: 5rem;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px grey;
 }
-.title h2 {
-  font-weight: bold;
-}
+
 .pt-6,
 .py-6 {
     padding-top: 8rem !important;
 }
 .pb-6 {
     padding-bottom: 8rem !important;
+}
 .jumbotron.container {
-  background-color: rgb(27, 121, 150, 0.7);
+  background-color: rgb(27, 121, 150, 0.6);
 }
 
 

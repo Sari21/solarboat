@@ -6,7 +6,7 @@
         </div>
 
       <div class="allnews">
-        <div class="title text-center p-4">
+        <div class="title text-center p-5 ">
           <h2>Hírek</h2>
         </div>
         <div class="scrollable">
@@ -48,11 +48,7 @@ export default {
 .description {
   text-align: justify;
 }
-.title h1{
-    font-size: 5rem;
-    font-weight: normal;
-    text-shadow: 2px 2px 5px grey;
-}
+
 .news {
   width: 100%;
 }
