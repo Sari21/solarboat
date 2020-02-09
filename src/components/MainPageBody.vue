@@ -1,12 +1,12 @@
 <template>
   <div id="body" class="page">
     <div class="content col-12 col-xl-6 col-md-9 mb-5">
-        <div class="title pt-6 pb-6 text-center ">
+        <div class="title pt-6 text-center ">
             <h1>BME Solar Boat Team</h1>
         </div>
 
       <div class="allnews">
-        <div class="title text-center p-5 ">
+        <div class="title text-center ">
           <h2>Hírek</h2>
         </div>
         <div class="scrollable">
@@ -39,6 +39,9 @@ export default {
 };
 </script>
 <style>
+.news.jumbotron {
+  background-color: rgb(27, 121, 150, 0.6);
+}
 .content {
   display: flex;
   flex-direction: column;

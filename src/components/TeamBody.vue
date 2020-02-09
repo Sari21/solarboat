@@ -1,9 +1,9 @@
 <template>
   <div id="body" class="page">
     <div class="content col-12 col-xl-6 col-md-9">
-      <div class="title p-4 md-pt-5">
-        <h2>Csapatunk</h2>
-      </div>
+        <div class="title pt-6 pb-6 text-center">
+            <h2>Csapatunk</h2>
+        </div>
       <div class="container jumbotron pr-3 pl-3 pt-2 pb-2 mb-3">
         <p
           class="description p-3 m-0"

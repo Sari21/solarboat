@@ -1,50 +1,48 @@
 <template>
   <div id="footer">
       <div class="contact text-center pt-5">
-          <h2 class="cont2 pb-2">Elérhetőségek</h2>
-          <div class="cont">
-              <BIconEnvelope class="mr-3 icon"></BIconEnvelope>info@solarboatteam.hu
-          </div>
-          <div class="cont pr-4">
-              <BIconPhone class="mr-3 icon"></BIconPhone>+36-30-73-16-221
+          <h2 class="cont2 pt-5">Elérhetőségek</h2>
+          <div class="col-8 col-md-12">
+              <v-icon v-b-tooltip.hover title="info@solarboatteam.hu">
+                  <i title="info@solarboatteam.hu" class="fas fa-envelope fa-3x col-6 col-sm-2 col-md-1"></i>
+              </v-icon>
+              <v-icon v-b-tooltip.hover title="+36-30-73-16-221">
+                  <i title="+36-30-73-16-221" class="fas fa-mobile fa-3x col-6 col-sm-2 col-md-1"></i>
+              </v-icon>
+              <a href="https://www.instagram.com/bme_solar_team/?hl=hu" target="blank">
+                  <i title="instagram" class="fab fa-instagram fa-3x col-6 col-sm-2 col-md-1"></i>
+              </a>
+              <a href="https://www.facebook.com/BMEsolar/" target="blank">
+                  <i title="facebook" class="fab fa-facebook-square fa-3x col-6 col-sm-2 col-md-1"></i>
+              </a>
           </div>
       </div>
     <div class="column text-center d-flex mb-1 justify-content-center">
-      <div class="col-10 col-md-12">
-        <a href="https://www.bme.hu/" target="blank">
-          <img src="../images/bme.png" alt="BME" class="col-6 col-sm-4 col-md-2" />
-        </a>
-        <a href="https://www.facebook.com/bmemvk/" target="blank">
-          <img src="../images/mkv.png" alt="MKV" class="col-6 col-sm-4 col-md-2" />
-        </a>
-        <a href="http://solarboatteam.hu/index.php" target="blank">
-          <img src="../images/solarboat.png" alt="Solar Boat" class="col-6 col-sm-4 col-md-2" />
-        </a>
-        <a href="https://www.facebook.com/BMEsolar/" target="blank">
-          <img src="../images/facebook.png" alt="Facebook" class="col-6 col-sm-4 col-md-2" />
-        </a>
-        <a href="https://www.instagram.com/bme_solar_team/?hl=hu" target="blank">
-          <img src="../images/insta.png" alt="BME" class="col-6 col-sm-4 col-md-2" />
-        </a>
-      </div>
+        <div class="col-10 col-md-12 links">
+            <a href="https://www.bme.hu/" target="blank">
+                <img src="../images/bme-white.png" alt="BME" title="BME" class="col-6 col-sm-2 col-md-2" />
+            </a>
+            <a href="http://solarboatteam.hu/index.php" target="blank">
+                <img src="../images/solarboat-white.png" alt="Solar Boat" title="Solar Boat" class="col-6 col-sm-2 col-md-2" />
+            </a>
+            <a href="https://www.facebook.com/bmemvk/" target="blank">
+                <img src="../images/mkv-white.png" alt="MKV" title="Műegyetemi Versenycsapat Közösség" class="col-6 col-sm-2 col-md-2" />
+            </a>
+        </div>
     </div>
 
-    <div class="text-center">
+    <div class="text-center pb-3 pt-5 schdesign">
       <a href="https://schdesign.hu/">
-        <img src="../images/schdesign.png" class="col-6 col-sm-4 col-md-2 schdesign-logo" />
+        <img src="../images/schdesign-white.png" title="designed by SchDesign" class="col-4 col-sm-4 col-md-2 schdesign-logo" />
       </a>
     </div>
   </div>
 </template>
 
 <script>
-import { BIconEnvelope, BIconPhone } from "bootstrap-vue";
+
 export default {
   name: "Footer",
-  components: {
-    BIconEnvelope,
-    BIconPhone
-  }
 };
 </script>
 <style>
@@ -72,9 +70,24 @@ h2.cont2 {
   display: flex;
   align-items: center;
 }
-.image {
-  flex-shrink: 4;
+i.fas{
+    padding: 2%;
+
 }
+a:hover img, i.fas:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+ a, a:hover {
+     color: white;
+ }
+ a:hover{
+     opacity: 0.7;
+ }
+ .links{
+     padding-top: 2%;
+ }
+
 
 /*.designer img {
   display: flex;

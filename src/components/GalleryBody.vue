@@ -1,6 +1,6 @@
 <template>
-  <div id="body" class="page">
-    <h1 class="p-4 md-pt-5 title">Galéria</h1>
+  <div id="body" class="page title">
+    <h1 class="p-4 md-pt-5 ">Galéria</h1>
     <div class="d-flex flex-column justify-content-center align-items-center col-12 col-md-8">
       <!-- <video class="m-3 col-8" controls>
         <source src="gallery/video.mp4" type="video/mp4" />Your browser does not support HTML5 video.

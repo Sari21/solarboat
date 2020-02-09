@@ -51,20 +51,32 @@
     text-shadow: 2px 2px 5px grey;
     font-size: 4rem;
     font-weight: normal;
+    padding-top: 5% !important;
+    padding-bottom: 6% !important;
 }
 .title h1 {
     font-size: 5rem;
     font-weight: normal;
     text-shadow: 2px 2px 5px grey;
+    padding-top: 7% !important;
+    padding-bottom: 5% !important;
+}
+.title h3 {
+    text-shadow: 2px 2px 5px grey;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-top: 5% !important;
+    padding-bottom: 6% !important;
 }
 
 .pt-6,
 .py-6 {
-    padding-top: 8rem !important;
+    padding-top: 8% !important;
 }
 .pb-6 {
-    padding-bottom: 8rem !important;
+    padding-bottom: 8% !important;
 }
+
 .jumbotron.container {
   background-color: rgb(27, 121, 150, 0.6);
 }
