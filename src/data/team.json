@@ -167,6 +167,12 @@
         "lastname": "Visnyei",
         "image": "visnyei-abel"
       }
+    ],
+    "images": [
+      {
+        "id": 0,
+        "name": "konstrukcio.jpg"
+      }
     ]
   },
   {
