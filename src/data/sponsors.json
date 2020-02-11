@@ -1,10 +1,6 @@
 {
   "main_sponsors": [
     {
-      "name": "audi",
-      "link": "https://www.audi.hu/"
-    },
-    {
       "name": "bd",
       "link": "http://afteam.hu/"
     },
@@ -19,46 +15,60 @@
   ],
   "exclusive_sponsors": [
     {
-      "name": "flaar",
-      "link": "http://flaar18.hu/rolunk/"
+      "name": "audi",
+      "link": "https://www.audi.hu/"
     },
     {
-      "name": "xxl_feny",
-      "link": "https://xxl-feny-kft.business.site/"
+      "name": "harting",
+      "link": "https://www.harting.com/US/en"
+    },
+
+    {
+      "name": "furukawa",
+      "link": "http://www.feti.hu/"
+    },
+
+    {
+      "name": "boatshow",
+      "link": "https://boatshow.hu/"
+    },
+    {
+      "name": "liion",
+      "link": "https://www.li-ion.hu/"
+    },
+    {
+      "name": "st",
+      "link": "https://snt.hu/"
+    },
+    {
+      "name": "easturn",
+      "link": "https://easturn.hu/"
+    },
+    {
+      "name": "zoltek",
+      "link": "https://zoltek.com/"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "flaar",
+      "link": "http://flaar18.hu/rolunk/"
     },
     {
       "name": "pauger",
       "link": "https://www.paugercarbon.com/"
     },
     {
-      "name": "freedee",
-      "link": "http://www.freedee.hu/"
-    },
-    {
-      "name": "harting",
-      "link": "https://www.harting.com/US/en"
+      "name": "xxl_feny",
+      "link": "https://xxl-feny-kft.business.site/"
     },
     {
       "name": "national_instruments",
       "link": "https://www.ni.com/fr-fr.html"
     },
     {
-      "name": "furukawa",
-      "link": "http://www.feti.hu/"
-    },
-    {
       "name": "knorr-bremse",
       "link": "https://www.knorr-bremse.hu/hu/"
-    },
-    {
-      "name": "boatshow",
-      "link": "https://boatshow.hu/"
-    }
-  ],
-  "sponsors": [
-    {
-      "name": "hbm",
-      "link": "https://ipari-merestechnika.hu/?session"
     },
     {
       "name": "analog_devices",
@@ -73,17 +83,10 @@
       "link": "https://www.schrauben-gross.com/hu/home.html"
     },
     {
-      "name": "como",
-      "link": "https://www.comoyachts.com/"
-    },
-    {
       "name": "henkel",
       "link": "https://www.henkel.hu/"
     },
-    {
-      "name": "zoltek",
-      "link": "https://zoltek.com/"
-    },
+
     {
       "name": "novia",
       "link": "https://novia.hu/"
@@ -100,10 +103,7 @@
       "name": "tomkom",
       "link": "https://radioberlet.hu/"
     },
-    {
-      "name": "rava",
-      "link": "https://ravatherm.com/hu/hu/"
-    },
+
     {
       "name": "polokozpont",
       "link": "https://www.polokozpont.hu/"
@@ -112,10 +112,7 @@
       "name": "myactioncam",
       "link": "https://myactioncam.hu/"
     },
-    {
-      "name": "liion",
-      "link": "https://www.li-ion.hu/"
-    },
+
     {
       "name": "gurit",
       "link": "https://www.gurit.com/"
@@ -132,10 +129,7 @@
       "name": "kompozitor",
       "link": "http://kompozitor.hu/"
     },
-    {
-      "name": "st",
-      "link": "https://snt.hu/"
-    },
+
     {
       "name": "lakner",
       "link": "https://laknerponyva.hu/"
@@ -144,17 +138,10 @@
       "name": "intertechnika",
       "link": "http://intertechnika.eu/"
     },
-    {
-      "name": "easturn",
-      "link": "https://easturn.hu/"
-    },
+
     {
       "name": "ptc",
       "link": "https://www.ptc.com/"
-    },
-    {
-      "name": "altair",
-      "link": "https://www.altair.com/"
     },
     {
       "name": "titan",
@@ -179,10 +166,6 @@
     {
       "name": "martin_metals",
       "link": "https://www.metalproduct.hu/"
-    },
-    {
-      "name": "trinexus",
-      "link": "https://www.trinexus.hu/"
     },
     {
       "name": "modul",
