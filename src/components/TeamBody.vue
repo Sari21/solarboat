@@ -4,11 +4,7 @@
         <div class="title pt-6 pb-6 text-center">
             <h2>Csapatunk</h2>
         </div>
-      <div class="container jumbotron pr-3 pl-3 pt-2 pb-2 mb-3">
-        <p
-          class="description p-3 m-0"
-        >A BME Solar Boat Team 3 fő szakmai egységre tagolható: Gépészet, Gazdaság, Elektronika (GGE). A csapat élén a csapatkapitány áll, akinek elsődleges feladata a csapat vezetése és koordinálása, valamint a három fő szakmai egység munkájának a harmonizálása a csapaton belül.</p>
-      </div>
+      
 
       <div class="container jumbotron m-0-1-0-1 pt-1 pr-3 pl-3 pb-2">
         <div class="title text-center m-3">{{allTeams[4].title}}</div>
