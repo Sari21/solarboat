@@ -1,10 +1,9 @@
 <template>
   <div id="body" class="page">
     <div class="content col-12 col-xl-6 col-md-9">
-        <div class="title pt-6 pb-6 text-center">
-            <h2>Csapatunk</h2>
-        </div>
-      
+      <div class="title pt-6 pb-6 text-center">
+        <h2>Csapatunk</h2>
+      </div>
 
       <div class="container jumbotron m-0-1-0-1 pt-1 pr-3 pl-3 pb-2">
         <div class="title text-center m-3">{{allTeams[4].title}}</div>
@@ -13,7 +12,7 @@
           <div class="d-flex flex-column flex-wrap col-5 col-sm-4 col-md-3 p-1">
             <img
               class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
-              v-bind:src="'/members/'+allTeams[4].leader.image+'.png'"
+              v-bind:src="'/members/'+allTeams[4].leader.image+'.jpg'"
             />
             <div class="text-center font-weight-bold leader">
               {{allTeams[4].leader.lastname}}
@@ -28,7 +27,7 @@
             v-bind:key="member.id"
             class="d-flex flex-column col-4 col-sm-2 col-md-2 p-1 member pt-5"
           >
-            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.png'" />
+            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.jpg'" />
             <div class="text-center">
               {{member.lastname}}
               <br />
@@ -62,7 +61,7 @@
           <div class="d-flex flex-column col-5 col-sm-4 col-md-3 p-1 align-items-center">
             <img
               class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
-              v-bind:src="'/members/'+allTeams[0].leader.image+'.png'"
+              v-bind:src="'/members/'+allTeams[0].leader.image+'.jpg'"
             />
             <div class="text-center font-weight-bold leader">
               {{allTeams[0].leader.lastname}}
@@ -75,7 +74,7 @@
             v-bind:key="member.id"
             class="d-flex flex-column col-4 col-sm-2 col-md-2 p-1 align-items-center member"
           >
-            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.png'" />
+            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.jpg'" />
             <div class="text-center">
               {{member.lastname}}
               <br />
@@ -100,7 +99,7 @@
           <div class="d-flex flex-column col-5 col-sm-4 col-md-3 p-1 align-items-center">
             <img
               class="rounded-circle p-0 img-fluid flex-grow-0 flex-shrink-0 d-flex"
-              v-bind:src="'/members/'+allTeams[3].leader.image+'.png'"
+              v-bind:src="'/members/'+allTeams[3].leader.image+'.jpg'"
             />
             <div class="text-center font-weight-bold leader">
               {{allTeams[3].leader.lastname}}
@@ -113,7 +112,7 @@
             v-bind:key="member.id"
             class="d-flex flex-column col-4 col-sm-2 col-md-2 p-1 align-items-center member"
           >
-            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.png'" />
+            <img class="rounded-circle p-0 img-fluid" v-bind:src="'/members/'+member.image+'.jpg'" />
             <div class="text-center">
               {{member.lastname}}
               <br />

@@ -1,7 +1,7 @@
 {
   "main_sponsors": [
     {
-      "name": "bd",
+      "name": "bg",
       "link": "http://afteam.hu/"
     },
     {
@@ -17,10 +17,6 @@
     {
       "name": "audi",
       "link": "https://www.audi.hu/"
-    },
-    {
-      "name": "harting",
-      "link": "https://www.harting.com/US/en"
     },
 
     {
@@ -47,9 +43,21 @@
     {
       "name": "zoltek",
       "link": "https://zoltek.com/"
+    },
+    {
+      "name": "ansys",
+      "link": "https://www.econengineering.com/hu/"
+    },
+    {
+      "name": "varinex",
+      "link": "https://www.varinex.hu/"
     }
   ],
   "sponsors": [
+    {
+      "name": "harting",
+      "link": "https://www.harting.com/US/en"
+    },
     {
       "name": "flaar",
       "link": "http://flaar18.hu/rolunk/"
@@ -178,6 +186,22 @@
     {
       "name": "autopro",
       "link": "https://autopro.hu/?gclid=Cj0KCQjwiILsBRCGARIsAHKQWLPPwbT4ll9nVn6cioy0x-oRbSjdL0QWCVtxCfj9FwQpzdo7UEEln28aAgvNEALw_wcB"
+    },
+    {
+      "name": "gigava",
+      "link": "https://www.gigavac.com/"
+    },
+    {
+      "name": "pikas",
+      "link": "http://www.pikas.at/cms/"
+    },
+    {
+      "name": "controllers",
+      "link": "http://www.mgm-controllers.com/"
+    },
+    {
+      "name": "econ",
+      "link": "https://www.econengineering.com/hu/"
     }
   ],
   "departments": [
