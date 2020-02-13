@@ -9,32 +9,40 @@
 }
 
 #header {
-    background: #ACDBE2;
+  background: #acdbe2;
 }
 
 #body {
-    background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("laptop.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%, 100% auto;
-    background-position: center bottom, center top;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(27, 38, 47, 0) 20%,
+      rgba(27, 38, 47, 1)
+    ),
+    url("laptop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% auto;
+  background-position: center bottom, center top;
 }
 
 @media only screen and (max-width: 768px) {
-    #body {
-        background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("mobile.png");
-        background-repeat: no-repeat;
-        background-size: 100% 100%, 100% auto;
-        background-position: center bottom, center top;
-    }
+  #body {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(27, 38, 47, 0) 20%,
+        rgba(27, 38, 47, 1)
+      ),
+      url("mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% auto;
+    background-position: center bottom, center top;
+  }
 }
 
-
-
 #footer {
-    background-color: rgba(27,38,47,1);
-    background-repeat: repeat-y;
-    background-size: 100%;
-    background-position: center bottom;
+  background-color: rgba(27, 38, 47, 1);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-position: center bottom;
 }
 .page {
   text-align: center;
@@ -48,37 +56,42 @@
   text-align: justify;
 }
 .title h2 {
-    text-shadow: 2px 2px 5px grey;
-    font-size: 4rem;
-    font-weight: normal;
-    padding-top: 5% !important;
-    padding-bottom: 6% !important;
+  text-shadow: 2px 2px 5px grey;
+  font-size: 4rem;
+  font-weight: normal;
+  padding-top: 5% !important;
+  padding-bottom: 6% !important;
 }
 .title h1 {
-    font-size: 5rem;
-    font-weight: normal;
-    text-shadow: 2px 2px 5px grey;
-    padding-top: 7% !important;
-    padding-bottom: 5% !important;
+  font-size: 5rem;
+  font-weight: normal;
+  text-shadow: 2px 2px 5px grey;
+  padding-top: 7% !important;
+  padding-bottom: 5% !important;
 }
 .title h3 {
-    text-shadow: 2px 2px 5px grey;
-    font-size: 2rem;
-    font-weight: normal;
-    padding-top: 5% !important;
-    padding-bottom: 6% !important;
+  text-shadow: 2px 2px 5px grey;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-top: 5% !important;
+  padding-bottom: 6% !important;
+}
+.subtitle {
+  text-shadow: 2px 2px 5px grey;
+  font-size: 2.4rem;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px;
 }
 
 .pt-6,
 .py-6 {
-    padding-top: 8% !important;
+  padding-top: 8% !important;
 }
 .pb-6 {
-    padding-bottom: 8% !important;
+  padding-bottom: 8% !important;
 }
 
 .jumbotron.container {
   background-color: rgb(27, 121, 150, 0.6);
 }
-
-

@@ -26,12 +26,7 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <router-link to="/">
-              <a class="nav-link pl-5">Hírek</a>
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/aboutus">
-              <a class="nav-link pl-5" @click="aboutus">Rólunk</a>
+              <a class="nav-link pl-5">Rólunk</a>
             </router-link>
           </li>
           <li class="nav-item">
