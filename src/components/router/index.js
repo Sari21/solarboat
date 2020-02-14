@@ -4,7 +4,6 @@ import MainPage from "@/components/MainPage";
 import Sponsors from "@/components/Sponsors";
 import Team from "@/components/Team";
 import Gallery from "@/components/Gallery";
-import AboutUs from "@/components/AboutUs";
 import Achievements from "@/components/Achievements";
 
 Vue.use(Router);
@@ -31,11 +30,7 @@ export default new Router({
       name: "Gallery",
       component: Gallery
     },
-    {
-      path: "/aboutus",
-      name: "AboutUs",
-      component: AboutUs
-    },
+
     {
       path: "/achievements",
       name: "Achievements",

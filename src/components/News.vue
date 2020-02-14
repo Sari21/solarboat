@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="jumbotron m-0-1-0-1 p-2 news" @click="modalShow = !modalShow">
-      <div class="p-1 container">
+      <div class="p-2 container">
         <div class="row title">
-          <div class="col-9">{{ item.title }}</div>
+          <div class="col-9 news-title p-0">{{ item.title }}</div>
           <div>
             <BIconArrowRight class="arrow"></BIconArrowRight>
 
@@ -83,5 +83,8 @@ export default {
 .news:hover {
   background: #3e889e;
   cursor: pointer;
+}
+.news-title {
+  font-size: 1.4rem;
 }
 </style>
