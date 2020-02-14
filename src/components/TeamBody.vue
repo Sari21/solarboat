@@ -37,9 +37,6 @@
             <div class="text-center leader post">{{member.post}}</div>
           </div>
         </div>
-        <div class="description p-3 mb-3">
-          <div>{{allTeams[4].description}}</div>
-        </div>
       </div>
 
       <div class="container jumbotron m-0-1-0-1 pt-1 pr-3 pl-3 pb-2">

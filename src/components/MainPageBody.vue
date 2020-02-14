@@ -1,7 +1,7 @@
 <template>
   <div id="body" class="page">
     <div class="content col-10 col-xl-10 col-md-10 mb-5">
-      <div class="title pt-6 text-center">
+      <div class="title text-center">
         <h1>BME Solar Boat Team</h1>
       </div>
       <div class="d-flex row justify-content-center">
@@ -89,5 +89,6 @@ div.scrollable {
   background-color: rgb(255, 255, 255, 0.2);
   border-radius: 0.3rem;
 }
+
 /*hali*/
 </style>
