@@ -13,16 +13,23 @@
 }
 
 #body {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(27, 38, 47, 0) 20%,
-      rgba(27, 38, 47, 1)
-    ),
-    url("laptop-green.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%, 100% auto;
-  background-position: center bottom, center top;
+    background-color: rgba(18, 84, 112, 1);
+    background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("laptop-bright.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100% auto;
+    background-position: center bottom, center top;
 }
+
+@media only screen and (max-width: 768px) {
+    #body {
+        background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("mobile-bright.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%, 100% auto;
+        background-position: center bottom, center top;
+    }
+}
+
+
 
 #footer {
   background-color: rgba(27, 38, 47, 1);
@@ -82,28 +89,4 @@
   background-color: rgb(27, 121, 150, 0.6);
 }
 
-@media only screen and (max-width: 989px) {
-  #body {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(27, 38, 47, 0) 20%,
-        rgba(27, 38, 47, 1)
-      ),
-      url("mobile-green.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%, 100% auto;
-    background-position: center bottom, center top;
-  }
 
-  .title h2 {
-    font-size: 9rem;
-  }
-
-  .title h1 {
-    font-size: 10rem;
-  }
-
-  .title h3 {
-    font-size: 8rem;
-  }
-}
