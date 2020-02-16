@@ -13,7 +13,8 @@
 }
 
 #body {
-    background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("laptop.png");
+    background-color: rgba(18, 84, 112, 1);
+    background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("laptop-bright.png");
     background-repeat: no-repeat;
     background-size: 100% 100%, 100% auto;
     background-position: center bottom, center top;
@@ -21,7 +22,7 @@
 
 @media only screen and (max-width: 768px) {
     #body {
-        background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("mobile.png");
+        background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("mobile-bright.png");
         background-repeat: no-repeat;
         background-size: 100% 100%, 100% auto;
         background-position: center bottom, center top;
