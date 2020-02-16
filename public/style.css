@@ -13,7 +13,7 @@
 }
 
 #body {
-    background-color: rgba(18, 84, 112, 1);
+    background-color: rgba(8, 73, 101, 1);
     background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("laptop-bright.png");
     background-repeat: no-repeat;
     background-size: 100% 100%, 100% auto;
@@ -22,6 +22,7 @@
 
 @media only screen and (max-width: 768px) {
     #body {
+        background-color: rgba(20, 82, 114, 1);
         background-image: linear-gradient(to bottom, rgba(27,38,47,0) 20%, rgba(27,38,47,1)), url("mobile-bright.png");
         background-repeat: no-repeat;
         background-size: 100% 100%, 100% auto;
@@ -84,6 +85,7 @@
 .pb-6 {
   padding-bottom: 8% !important;
 }
+
 
 .jumbotron.container {
   background-color: rgb(27, 121, 150, 0.6);

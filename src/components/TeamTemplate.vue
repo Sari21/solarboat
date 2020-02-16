@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="description p-3 mb-3">
+    <div class="description pr-5 pl-5 p-3 mb-3">
       <div>{{team.description}}</div>
     </div>
     <div class="photos">
@@ -86,5 +86,8 @@ div.leader {
 }
 .works {
   font-size: 1.7rem;
+}
+@media only screen and (max-width: 768px) {
+ 
 }
 </style>

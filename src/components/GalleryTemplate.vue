@@ -7,7 +7,7 @@
         <p>{{ gallery.description }}</p>
       </div>
       <img
-        class="col-3 p-1 gallery"
+        class="col-6 col-sm-6 col-md-4 p-1 gallery"
         v-for="(image, i) in gallery.images"
         :src="image"
         v-bind:key="image.id"

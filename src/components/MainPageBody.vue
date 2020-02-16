@@ -80,15 +80,26 @@ export default {
 .news {
   width: 100%;
 }
-div.scrollable {
-  height: 90vh;
-  overflow: auto;
-  overflow-x: hidden;
-}
-.news-bg {
-  background-color: rgb(255, 255, 255, 0.2);
-  border-radius: 0.3rem;
-}
+div.scrollable { 
+  height: auto !important; 
+  max-height: 180vh; 
+  overflow: auto; 
+  overflow-x: hidden; 
+} 
+.news-bg { 
+  background-color: rgb(255, 255, 255, 0.2); 
+  border-radius: 0.3rem; 
+} 
+ 
+@media only screen and (max-width: 768px) { 
+    div.scrollable { 
+      margin-top: 10%; 
+      background-color: rgb(0,0,0, 0); 
+      height: 90vh !important; 
+      border: 2px solid rgb(27, 121, 150, 0.6); 
+    } 
+} 
+
 
 /*hali*/
 </style>

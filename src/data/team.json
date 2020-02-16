@@ -207,14 +207,14 @@
         "firstname": "András",
         "lastname": "Pintér",
         "image": "pinter-andras",
-        "post": "Anyagtechnológiai csoportvezető"
+        "post": "Anyagtechnológia csoportvezető"
       },
       {
         "id": 3,
         "firstname": "Zalán",
         "lastname": "Petőcz",
         "image": "petocz-zalan",
-        "post": "Konstrukció & Sziuláció csoportvezető"
+        "post": "Konstrukció & Szimuláció csoportvezető"
       }
     ]
   }
