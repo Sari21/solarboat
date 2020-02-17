@@ -4,8 +4,9 @@
     "\\public",
     "\\public\\workgroups",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\data"
   ],
-  "SelectedNode": "\\public\\index.html",
+  "SelectedNode": "\\src\\components\\GalleryBody.vue",
   "PreviewInSolutionExplorer": false
 }

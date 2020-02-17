@@ -27,7 +27,7 @@
         </div>
         <div class="row description">
           <div class="col-9">{{ item.shortDescription }}</div>
-          <img class="col-3 m-0-0-0-3" v-bind:src="`/news/`+ item.image" alt="Image" />
+          <img class="col-3 m-0-0-0-3 img-small img-responsive" v-bind:src="`/news/`+ item.image" alt="Image" />
         </div>
       </div>
     </div>
@@ -65,6 +65,10 @@ export default {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.img-small {
+width: 100%;
+object-fit: cover;
 }
 .title {
   font-size: 150%;
