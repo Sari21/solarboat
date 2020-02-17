@@ -44,50 +44,6 @@
     ]
   },
   {
-    "id": 1,
-    "title": "Elektronikai csoport",
-    "title_en": "Electronics workgroup",
-    "description": "Az elektronikai csoport két részegységből áll: Elektrotechnika és Informatika. Az elektronikai csoport legfontosabb feladatai a hajó energia ellátásának a biztosítása és monitorozása. Számos villamos energetikai, valamint informatikai projekt köthető a csoporthoz, mint például akkumulátor design, töltésvezérlés tervezése, vagy szenzorok közötti kommunikáció. A 2020-as versenyszezontól a csapat nagy figyelmet fordít a felhő alapú IoT technológiákban rejlő lehetőségekre is.",
-    "description_en": "This team is responsible for the electrical design and for the installation of the electrical components. This year the team focuses on the possibilities of the IoT technologoies as well.",
-    "leader": {
-      "firstname": "Márk",
-      "lastname": "Kecskés",
-      "image": "kecskes-mark"
-    },
-    "members": [
-      {
-        "id": 0,
-        "firstname": "Katica",
-        "lastname": "Bozsó",
-        "image": "bozso-katica"
-      },
-      {
-        "id": 1,
-        "firstname": "Szilárd",
-        "lastname": "Czibere",
-        "image": "czibere-szilard"
-      },
-      {
-        "id": 2,
-        "firstname": "Péter",
-        "lastname": "Tömöri",
-        "image": "tomori-peter"
-      },
-      {
-        "id": 3,
-        "firstname": "Dávid",
-        "lastname": "Gracza",
-        "image": "gracza-david"
-      }
-    ],
-    "images": [
-      {
-        "id": 0,
-        "name": "elektronika.jpg"
-      }
-    ]
-  },
-  {
     "id": 2,
     "title": "Gazdasági csoport",
     "title_en": "Economic workgroup",
@@ -128,6 +84,50 @@
       {
         "id": 0,
         "name": "gazdasag.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Elektronikai csoport",
+    "title_en": "Electronics workgroup",
+    "description": "Az elektronikai csoport két részegységből áll: Elektrotechnika és Informatika. Az elektronikai csoport legfontosabb feladatai a hajó energia ellátásának a biztosítása és monitorozása. Számos villamos energetikai, valamint informatikai projekt köthető a csoporthoz, mint például akkumulátor design, töltésvezérlés tervezése, vagy szenzorok közötti kommunikáció. A 2020-as versenyszezontól a csapat nagy figyelmet fordít a felhő alapú IoT technológiákban rejlő lehetőségekre is.",
+    "description_en": "This team is responsible for the electrical design and for the installation of the electrical components. This year the team focuses on the possibilities of the IoT technologoies as well.",
+    "leader": {
+      "firstname": "Márk",
+      "lastname": "Kecskés",
+      "image": "kecskes-mark"
+    },
+    "members": [
+      {
+        "id": 0,
+        "firstname": "Katica",
+        "lastname": "Bozsó",
+        "image": "bozso-katica"
+      },
+      {
+        "id": 1,
+        "firstname": "Szilárd",
+        "lastname": "Czibere",
+        "image": "czibere-szilard"
+      },
+      {
+        "id": 2,
+        "firstname": "Péter",
+        "lastname": "Tömöri",
+        "image": "tomori-peter"
+      },
+      {
+        "id": 3,
+        "firstname": "Dávid",
+        "lastname": "Gracza",
+        "image": "gracza-david"
+      }
+    ],
+    "images": [
+      {
+        "id": 0,
+        "name": "elektronika.jpg"
       }
     ]
   },
