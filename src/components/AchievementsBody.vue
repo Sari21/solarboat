@@ -1,11 +1,11 @@
 <template>
   <div id="body" class="page">
-    <div class="content col-12 col-xl-6 col-md-9 mb-5">
+    <div class="content col-12 col-xl-6 col-md-9 mb-5   ">
       <div class="allnews">
         <div class="title text-center">
           <h2>Eredményeink</h2>
         </div>
-        <div class="scrollable">
+        <div class="scrollable mt-5">
           <News
             v-for="item in allAchievements.slice().reverse()"
             v-bind:key="item.id"
