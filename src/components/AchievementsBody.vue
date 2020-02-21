@@ -5,7 +5,7 @@
         <div class="title text-center">
           <h2>Eredményeink</h2>
         </div>
-        <div class="scrollable mt-5">
+        <div class=" mt-5">
           <News
             v-for="item in allAchievements.slice().reverse()"
             v-bind:key="item.id"

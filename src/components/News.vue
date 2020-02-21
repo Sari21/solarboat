@@ -69,6 +69,7 @@ export default {
 .img-small {
 width: 100%;
 object-fit: cover;
+max-height: 30%;
 }
 .title {
   font-size: 150%;

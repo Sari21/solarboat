@@ -7,27 +7,21 @@
   },
   {
     "id": "1",
-    "title": "Netherlands 2016",
-    "description": "2016. Július 2-9. Dutch Solar Challenge Különdíj",
-    "image": "dutch.jpg"
-  },
-  {
-    "id": "2",
     "title": "Monaco 2017",
     "description": "2017. Július 13-15. Monaco Solar Boat Challenge 11.helyezés",
     "image": "monaco17.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Netherlands 2016",
+    "description": "2016. Július 2-9. Dutch Solar Challenge Különdíj",
+    "image": "dutch.jpg"
   },
   {
     "id": "3",
     "title": "Monaco 2016",
     "description": "2016. július 14-16. Monaco Solar Boat Challange 11. helyezés",
     "image": "monaco16.jpg"
-  },
-  {
-    "id": "4",
-    "title": "Russia 2017",
-    "description": "2017. Július 21-24. Russian Solar Regatta 5.helyezés",
-    "image": "russia.jpg"
   }
 
 ]
